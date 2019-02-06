@@ -15,6 +15,9 @@ class Demo1{
     int c=a/b;
     System.out.println(c);
     }
+  void show(){
+    System.out.println("God is great");
+  }
  }
  class Demo{
    public static void main(String args[]){
