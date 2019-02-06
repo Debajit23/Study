@@ -11,6 +11,10 @@ class Demo1{
     int c=a*b;
     System.out.println(c);
     }
+  void division(int a, int b){
+    int c=a/b;
+    System.out.println(c);
+    }
  }
  class Demo{
    public static void main(String args[]){
@@ -18,5 +22,6 @@ class Demo1{
     ob.addition(2,1);
     ob.deletion(2,1);
     ob.multiplication(2,1);
+    ob.division(2,1);
     }
   }
